@@ -147,6 +147,41 @@ h4 {
     margin-top: 10px;
     display: inline-block;
 }
+.resume {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 40px 50px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-sizing: 0px 2px 8px rgba(0,0,0,0,08);
+}
+.resume h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0a2540;
+    text-align: center;
+}
+.resume section {
+    margin-bottom: 40px;
+}
+.resume h3 {
+    font-size: 1.4rem;
+    color: #1e3a5f;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+.resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.resume ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.resume strong {
+    color: #0a2540;
+}
 form {
     max-width: 600px;
     margin: 40px auto;
