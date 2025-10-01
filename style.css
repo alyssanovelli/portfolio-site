@@ -132,11 +132,12 @@ h4 {
     transform: translateY(-5px);
 }
 .project h1{
-    padding-left: 50px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
 }
 .project p {
-    padding-left: 20px;
-}
+    max-width: 800px;
+    margin: 0 auto 30px auto;}
 .project h2 {
     margin-bottom: 10px;
     color: #0a2540;
