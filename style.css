@@ -115,6 +115,12 @@ h4 {
     max-width: 1100px;
     margin: 60px auto;
     padding: 0 20px;
+}
+.projects-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
@@ -131,12 +137,12 @@ h4 {
 .project:hover {
     transform: translateY(-5px);
 }
-.project h1{
+.projects-intro h1{
     max-width: 800px;
     margin: 0 auto 30px auto;
     text-align: center;
 }
-.project p {
+.projects-intro p {
     max-width: 800px;
     margin: 0 auto 30px auto;
     text-align: center;
