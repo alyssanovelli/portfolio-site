@@ -50,5 +50,12 @@
         <i class="fas fa-moon"></i>
     </button>
      <script src="darkmode.js"></script>
+     <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            setTimeout(() => {
+            this.reset();
+        }, 500);
+    });
+     </script>
 </body>
 </html>
