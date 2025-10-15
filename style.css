@@ -310,8 +310,8 @@ body.dark-mode .dark-mode-btn:hover {
     color: #fff;
 }
 body.dark-mode {
-    background-color: #0a0a0a;
-    color: #f1f1f1;
+    background: linear-gradient(160deg, #0b0b0b, #1a1a1a);
+    color: #e6e6e6;
 }
 body.dark-mode header {
     background-color: #1a1a1a;
