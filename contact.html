@@ -53,11 +53,9 @@
     </button>
      <script src="darkmode.js"></script>
      <script>
-        document.getElementById("contactForm").addEventListener("submit", function(event) {
-            setTimeout(() => {
-            this.reset();
-        }, 500);
+    document.querySelector("form").addEventListener("submit", function() {
+    setTimeout(() => this.reset(), 1000); // clears the form after sending
     });
-     </script>
+</script>
 </body>
 </html>
