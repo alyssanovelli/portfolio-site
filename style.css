@@ -19,7 +19,7 @@ header {
         rgba(10, 37, 64, 0.85), 
         rgba(30, 58, 95, 0.85)
       ), 
-      url(header.background.jpg);
+      url('header.background.jpg');
     background-size: cover;
     background-position: center;
     color: white;
