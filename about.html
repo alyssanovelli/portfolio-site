@@ -16,8 +16,8 @@
     </header>
     <nav>
         <div class="menu-toggle" id="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
+            <i class="fas fa-bars"></i>
+        </div>
         <ul>
             <li><a href=index.html>Home</a></li>
             <li><a href=about.html>About</a></li>
@@ -59,11 +59,15 @@
     </button>
     <script src="darkmode.js"></script>
     <script>
-        const menuToggle = document.getElementById("mobile-menu");
-        const navLinks = document.querySelector("nav ul");
+    const menuToggle = document.getElementById("mobile-menu");
+    const navLinks = document.querySelector("nav ul");
 
-        menuToggle.addEventListener("click", () => {
-            navLinks.classList.toggle("show");
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+
+        const icon = menuToggle.querySelector("i");
+        icon.classList.toggle("fa-bars");
+        icon.classList.toggle("fa-times");
         });
     </script>
     </body>
