@@ -15,6 +15,9 @@
     <h1>Contact Me</h1>
     </header>
     <nav>
+        <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         <ul>
             <li><a href=index.html>Home</a></li>
             <li><a href=about.html>About</a></li>
@@ -54,5 +57,13 @@
     </button>
      <script src="darkmode.js"></script>
      <script src="formcollector.js" defer></script>
+     <script>
+        const menuToggle = document.getElementById("mobile-menu");
+        const navLinks = document.querySelector("nav ul");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        })
+    </script>
 </body>
 </html>
