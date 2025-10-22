@@ -42,18 +42,19 @@ header h2 {
     position: absolute;
     top: 18px;
     right: 25px;
+    z-index: 2000;
 }
 @media (max-width: 768px) {
     nav ul {
-    display: none;
-    flex-direction: column;
-    background: rgba(19, 41, 75, 0.95);
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    padding: 15px;
-    border-radius: 8px;
+        display: none;
+        flex-direction: column;
+        background: rgba(19, 41, 75, 0.95);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
     }
 nav ul.show {
     display: flex;
