@@ -45,7 +45,10 @@ header h2 {
     z-index: 2000;
 }
 @media (max-width: 768px) {
-    nav ul {
+    .menu-toggle {
+    display: block;
+} 
+nav ul {
         display: none;
         flex-direction: column;
         background: rgba(19, 41, 75, 0.95);
@@ -55,13 +58,11 @@ header h2 {
         width: 200px;
         padding: 15px;
         border-radius: 8px;
-    }
+}
 nav ul.show {
     display: flex;
 }
-.menu-toggle {
-    display: block;
-} 
+
 nav li {
     margin: 10px 0;
 }
